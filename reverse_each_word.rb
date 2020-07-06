@@ -4,6 +4,6 @@ def reverse_each_word(sentence)
   reversed = ""
   sentence.split.collect do |words|
     # binding.pry
-    words.reverse = reversed
+    words.reverse == reversed
   end
 end
